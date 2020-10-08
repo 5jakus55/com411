@@ -1,9 +1,9 @@
-bop = 0
 print("Please enter a phrase:")
-response = (input()
-print() 
-while (bop < len(response):
+response = input() 
+bop = 0
+length = len(response)
+while (bop < length ):
     print(response)
-    bop = bop + 1
+    bop += 1
     
   
