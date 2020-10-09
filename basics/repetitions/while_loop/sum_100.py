@@ -1,5 +1,15 @@
-sum = 0
+# Display start message
 print("Calculating the sum of the first 100 numbers...")
-while (1 < 100 ):
-  sum = sum + 1
-  print("...Done! The answer is {}".format(sum))
+
+# Declare a control variable
+number = 1
+
+# Calculate sum of first 100 numbers
+total = 0
+
+while (number <= 100):
+    total = total + number
+    number = number + 1
+
+# Display result
+print("...Done! The answer is", total)
