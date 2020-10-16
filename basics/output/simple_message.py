@@ -1,2 +1,4 @@
-print("System Failure Imminent!")
-print("Have a nice Day")
+def simple_message():
+ print("System Failure Imminent!")
+
+simple_message.run()
