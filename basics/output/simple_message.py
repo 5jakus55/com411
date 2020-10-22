@@ -1,4 +1,3 @@
-def simple_message():
+def run():
  print("System Failure Imminent!")
 
-simple_message.run()

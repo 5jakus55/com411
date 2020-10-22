@@ -1,5 +1,4 @@
-def multiline_message():
+def run():
  print("System Failure Imminent!")
  print("Have a nice Day")
 
-multiline_message.run()
