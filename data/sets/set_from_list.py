@@ -17,7 +17,7 @@ def run():
     occurrences = observations.count(observation)
     observations_set.add( (observation,occurrences))
 
-  for key, value in observation_set:
+  for key, value in observations_set:
     print(f"{key} observed {value} times.")
 
 run()
