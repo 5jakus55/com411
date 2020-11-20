@@ -4,7 +4,7 @@ def read_data(file_path):
   with open(file_path) as file:
     temperatures = []
     for line in file:
-      temperature = float(line.stip())
+      temperature = float(line.strip())
       temperatures.append(temperature)
 
   return temperatures
@@ -18,3 +18,4 @@ def run():
   plt.show()
 
 run() 
+    
